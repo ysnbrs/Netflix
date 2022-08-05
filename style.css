@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /* color: #fff; */
+   /* text-align: center; */
+   
+}
+body {
+    background-image: url(./img/background_image.jpg);
+    /* background-position: center center; */
+    /* background-repeat: repeat-y; */
+    /* background-size: cover; */
+    /* text-align: center; */
+  }
+  .container {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    margin: 5rem auto;
+    width: 90vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+  }
+  h1 {
+    font-weight: bolder;
+    text-align: center;
+}
+    h1,
+.text {
+  margin-bottom: 0.5rem;
+  /* text-align: center; */
+}
+.a{ color: red;}
+.aa{
+    text-align: center;
+}
+  .inputs {
+    width: 25rem;
+    margin: auto;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px 17px;
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    /* font-weight: 600; */
+  }
+  form {
+    margin: 2rem;
+  }
+  .inputs .input-text {
+    width: 18.875rem;
+    height: 3rem;
+    border-style: none;
+    border-radius: 0%;
+    margin: 10px 3px 15px 3px;
+    padding-left: 5px;
+  }
+  .input-text:focus {
+    outline-style: none;
+  }
+  .label {
+    padding-top: 0.5rem;}
+    .type,.gender{
+        margin: 1rem 0;
+    }
+    textarea{
+        resize: none;
+    }
+    .button{
+        width: 100%;
+        height: 3rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: -2rem;}
+    button{
+        width: 6rem;
+        height: 2.5rem;
+        border-radius: 50px;
+        background-color: red;
+        color: white;
+        border: none;
+    }
+    
